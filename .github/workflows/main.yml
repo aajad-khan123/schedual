@@ -1,0 +1,14 @@
+ name: aajad khan
+
+ on:
+   schedual:
+     - cron: "0 0 * * *"
+
+jobs:
+  run-script:
+    run-on: ubantu-letest
+    
+   steps:
+     - name: print messege
+       run: echo "hello my dear users hoe are you"
+  
